@@ -1,6 +1,6 @@
 # Proxy Helpers
 
-This library facilitates the layers of method interception for Java interfaces
+This library facilitates the layers of method interception for Java interfaces.
 
 ## What?
 
@@ -19,7 +19,7 @@ the native `Proxy` object.
 Java provides an injection point called an `InvocationHandler`, which is the
 implementation for a proxy method call. In this implementation we are allowed
 to inspect dynamic parameters that include the invoked method along with runtim
-parameters passed to the method. This is a rich target for our method inception.
+parameters passed to the method. This is a rich target for our method interception.
 
 ``` java
 ProxyFactory proxies = ProxFactoryData.builder()
