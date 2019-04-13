@@ -18,6 +18,7 @@
 
   <modules>
   	<module>proxy-api</module>
+  	<module>proxy-cache</module>
   </modules>
 
   <repositories>
